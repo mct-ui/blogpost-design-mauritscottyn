@@ -25,12 +25,14 @@
 @font-face {
     font-family: "Droid Serif";
     font-weight: 700;
+    font-style: italic;
     src: url("../fonts/DroidSerif-BoldItalic-webfont.woff") format("woff");
 }
 
 @font-face {
     font-family: "Droid Serif";
     font-weight: 400;
+    font-style: italic;
     src: url("../fonts/DroidSerif-Italic-webfont.woff") format("woff");
 }
 
@@ -53,6 +55,7 @@ h1,
 h2,
 h3 {
     color: #17181A;
+    font-family: "Inter UI", "Helvetica Neue", Helvetica, arial, sans-serif;
 }
 
 body {
@@ -91,7 +94,6 @@ img {
 */
 
 h1 {
-    font-family: "Inter UI", "Times New Roman", serif;
     font-size: 36px;
     font-weight: normal;
     line-height: 40px;
