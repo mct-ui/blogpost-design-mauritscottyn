@@ -8,8 +8,14 @@ html {
     font-size: 16px;
     line-height: 1.5;
     font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
-    color: #111;
+    color: #5C6366;
     padding: 48px 24px 24px;
+}
+
+h1,
+h2,
+h3 {
+    color: #17181A;
 }
 
 body {
@@ -25,7 +31,7 @@ body {
  */
 
 ::selection {
-    background: #e85e00;
+    background: #00e6a1;
     color: white;
     text-shadow: none;
 }
@@ -123,18 +129,18 @@ hr {
 }
 
 a {
-    color: RoyalBlue;
+    color: #00e1a6;
     transition: all .1s ease-in-out;
 }
 
 a:visited,
 a:active {
-    color: BlueViolet;
+    color: #00e1a6;
 }
 
 a:hover,
 a:focus {
-    color: Crimson;
+    color: #1abaff;
 }
 
 /* Small devices (landscape phones, 576px and up) */
