@@ -49,6 +49,8 @@ html {
     font-family: "Droid Serif", Georgia, Serif;
     color: #5C6366;
     padding: 48px 24px 24px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 h1,
@@ -56,6 +58,10 @@ h2,
 h3 {
     color: #17181A;
     font-family: "Inter UI", "Helvetica Neue", Helvetica, arial, sans-serif;
+}
+
+* + h2 {
+    margin-top: 48px;
 }
 
 body {
@@ -272,4 +278,38 @@ a:focus {
     h3 {
         page-break-after: avoid;
     }
+}
+
+/*
+    Components: Author
+*/
+
+.c-author {
+    display: flex;
+    align-items: center;
+}
+
+.c-author_image{
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    margin-right: 16px;
+    margin-bottom: 24px;
+}
+
+.c-author_name,
+.c-author_meta {
+    margin-bottom: 0;
+}
+
+.c-author_meta{
+    font-size: 14px;
+    font-family: "Inter UI", "Helvetica Neue", Helvetica, arial, sans-serif;
+    line-height: 16px;
+    margin-top: 4px;
+}
+
+.c-author_name{
+    font-size: 16px;
+    line-height: 16px;
 }
